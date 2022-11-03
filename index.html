@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/stilo.css">
+    <style>
+        a {color: yellow;}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
     <!-- parte de arriba -->
@@ -14,13 +19,23 @@
             <div class="header__nav__div">
                 <img src="https://www.clipartmax.com/png/middle/229-2295698_bicicleta-icono-gratis-silueta-de-bicicleta-sin-fondo.png" alt="bicicleta" class="header__nav__div__img">
             </div>
-            <ul class="header__nav__divtwo__ul">
-                <li class="contenedor_sticky"><a href="./index.html">Inicio</a></li>
-                <li class="contenedor_sticky"><a href="./pages/recorridos.html" target="_blank">Recorridos</a></li>
-                <li class="contenedor_sticky"><a href="./pages/sobrenosotros.html" target="_blank">Sobre Nosotros</a></li>
-                <li class="contenedor_sticky"><a href="./pages/nustrocambio.html" target="_blank">Nuestro cambio</a></li>
-                <li class="contenedor_sticky"><a href="#piedepagina_html">Contacto</a></li>
-            </ul>  
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/recorridos.html"target="_blank">Recorridos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/sobrenosotros.html"target="_blank">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/nustrocambio.html"target="_blank">Nustro cambio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#piedepagina_html">Contacto</a>
+                </li>
+            </ul>
         </nav>  
     </header>    
 
@@ -35,7 +50,6 @@
             </section>
         </main>
         
-    
         <!-- PIE DE PAGINA (CONTACTOS O/Y DATOS)  -->
         <footer id="piedepagina_html">
             <div class="footer__divp">
@@ -57,16 +71,3 @@
     
 </body>
 </html>
-<!-- minuto 36:12 MIRAR -->
-<!-- .header__nav{
-    grid-template-columns: auto auto;
-    justify-content: space-around;
-}
-.header__nav__divtwo__ul{
-    display: inline-block;
-    display: flex;
-    justify-content: space-around;
-}
-.contenedor_sticky{
-    padding: 4px;
-} -->
